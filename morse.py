@@ -111,10 +111,11 @@ class Solution:
         endmessage=""
         for i in message:
             if i==" ":
-                endmessage+=(" ")
+                endmessage+=("  ")
             else:
                 endmessage+=(MORSE_CODE_DICT[i])
-            return endmessage
+                endmessage+=(" ")
+        return endmessage
 
 def main():
      str1=input()
