@@ -109,6 +109,7 @@ MORSE_CODE_DICT = { 'A':'.-', 'B':'-...',
 class Solution:
     def encrypt(self, message):
         endmessage=""
+        message=message.upper()
         for i in message:
             if i==" ":
                 endmessage+=("  ")
