@@ -113,7 +113,7 @@ class Solution:
             if i==" ":
                 endmessage+=(" ")
             else:
-                endmessage+=(MORSE_CODE_DICT(i))
+                endmessage+=(MORSE_CODE_DICT[i])
             return endmessage
 
 def main():
