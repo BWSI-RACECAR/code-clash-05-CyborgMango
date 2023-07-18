@@ -112,7 +112,7 @@ class Solution:
         message=message.upper()
         for i in message:
             if i==" ":
-                endmessage+=("  ")
+                endmessage+=(" ")
             else:
                 endmessage+=(MORSE_CODE_DICT[i])
                 endmessage+=(" ")
