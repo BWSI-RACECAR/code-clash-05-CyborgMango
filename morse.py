@@ -111,9 +111,9 @@ class Solution:
         endmessage=""
         for i in message:
             if i==" ":
-                endmessage.append(" ")
+                endmessage+=(" ")
             else:
-                endmessage.append(MORSE_CODE_DICT(i))
+                endmessage+=(MORSE_CODE_DICT(i))
             return endmessage
 
 def main():
